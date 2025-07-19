@@ -1,0 +1,33 @@
+<svg viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Simplified world map outline -->
+  <defs>
+    <linearGradient id="mapGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e0e7ff;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#c7d2fe;stop-opacity:0.2"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- North America -->
+  <path d="M150 120 L280 100 L320 140 L300 200 L250 220 L180 200 L120 160 Z" fill="url(#mapGradient)" stroke="#6366f1" stroke-width="0.5" opacity="0.6"/>
+  
+  <!-- South America -->
+  <path d="M220 250 L280 240 L300 320 L280 400 L240 420 L200 380 L180 300 Z" fill="url(#mapGradient)" stroke="#6366f1" stroke-width="0.5" opacity="0.6"/>
+  
+  <!-- Europe -->
+  <path d="M480 80 L580 70 L600 120 L580 160 L520 170 L460 140 Z" fill="url(#mapGradient)" stroke="#6366f1" stroke-width="0.5" opacity="0.6"/>
+  
+  <!-- Africa -->
+  <path d="M480 180 L580 170 L600 280 L580 380 L520 400 L480 360 L460 240 Z" fill="url(#mapGradient)" stroke="#6366f1" stroke-width="0.5" opacity="0.6"/>
+  
+  <!-- Asia -->
+  <path d="M620 60 L800 50 L900 80 L920 160 L880 200 L800 180 L700 140 L620 120 Z" fill="url(#mapGradient)" stroke="#6366f1" stroke-width="0.5" opacity="0.6"/>
+  
+  <!-- Australia -->
+  <path d="M780 320 L880 310 L900 350 L880 380 L800 390 L760 360 Z" fill="url(#mapGradient)" stroke="#6366f1" stroke-width="0.5" opacity="0.6"/>
+  
+  <!-- Decorative dots for cities -->
+  <circle cx="200" cy="150" r="2" fill="#6366f1" opacity="0.4"/>
+  <circle cx="520" cy="120" r="2" fill="#6366f1" opacity="0.4"/>
+  <circle cx="750" cy="100" r="2" fill="#6366f1" opacity="0.4"/>
+  <circle cx="850" cy="340" r="2" fill="#6366f1" opacity="0.4"/>
+</svg>
